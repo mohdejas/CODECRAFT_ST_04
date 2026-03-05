@@ -15,10 +15,7 @@ public class Logininvalid {
 		driver.findElement(By.id("user-name")).sendKeys("standard_user");
 		driver.findElement(By.id("password")).sendKeys("sauce_secret");
 		driver.findElement(By.id("login-button")).click();
-		
-		
-			
-		
+				
 
 	}
 }
